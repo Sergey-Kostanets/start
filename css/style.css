@@ -257,6 +257,7 @@ ul {
 .clients-slider__box-img{
     flex-basis: 510px;
     margin-right: 91px;
+    margin-bottom: 30px;
 }
 
 .clients-slider__box-title{
@@ -274,4 +275,12 @@ ul {
 
 .client-slider__box-item{
     margin-bottom: 15px;
+}
+
+.slick-arrow path{
+    transition: fill .5s;
+}
+
+.slick-arrow:hover path{
+    fill: #a9a32a;
 }
