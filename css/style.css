@@ -511,6 +511,31 @@ ul {
   .info-slider__text{
     max-width: 510px;
   } */
+  .info-slider{
+    max-width: 300px;
+    margin: 0 auto;
+
+  }
+  .info-slider__img{
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 25px;
+    float: none;
+    height: 200px;
+    object-fit: cover;
+  }
+  .slick-prev{
+    left: calc(50% - 10px - 40px);
+  }
+  .slick-next{
+    left: calc(50% + 10px);
+  }
+  .info__list{
+    display: block;
+  }
+  .info-tabs__items{
+
+  }
 }
 
 @media(max-width: 375px){
@@ -522,5 +547,8 @@ ul {
   }
   .service__box{
     margin-bottom: 30px;
+  }
+  .info-tabs__items{
+    
   }
 }
